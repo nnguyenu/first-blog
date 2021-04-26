@@ -7,7 +7,6 @@ Note: the website will need a few seconds to execute the code so be patient
 <html>
   <head>
     <meta charset="utf-8">
-    <title>HTML test</title>
   </head>
   <body>
         <h1>This is a text message</h1>
