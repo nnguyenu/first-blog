@@ -10,6 +10,11 @@ Note: the website will need a few seconds to execute the code so be patient
   </head>
   <body>
         <h1>Nội dung chính của blog này:</h1>
+        <ol>
+          <li>Giới thiệu bản thân</li>
+          <li>Hoạt động ngoại khóa</li>
+          <li>Kiến thức bên lề</li>
+        </ol>
         <ul>
           <li>Giới thiệu bản thân</li>
           <li>Hoạt động ngoại khóa</li>
