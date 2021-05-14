@@ -3,15 +3,21 @@
  <head>
     <meta charset="utf-8">
     <title>NguyenVu's blog</title>
+    <!-- 2x size of body's font size -->
     <style>
         h2{
             color:rgb(0, 232, 15);
+            font-family:sans-serif;
+            /* 2x body's font size*/
+            font-size:2em; 
         }
         body{
       	    background-color: rgb(242, 245, 247);
+      	    font-size:16px;
         }
         p{
             color:rgb(191, 53, 53);
+            text-align:center;
         }
         li{
             color:rgb(168, 52, 168);
@@ -23,10 +29,18 @@
         .para{
             background-color:rgb(167, 209, 202);
         }
+        .quote{
+            font-style:italic;
+        }
+        .main-title{
+            text-align:center;
+        }
     </style>
  </head>
  <body> <!-- Everything we see on the website is contain in this part -->
-    <h1>Nội dung chính của blog này:</h1>
+    <p class="quote">Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.<br>
+    -Albert Einstein-</p>
+    <h1 class="main-title">Nội dung chính của blog này:</h1>
         <ol>
             <li><a href="#part1">Giới thiệu bản thân</a></li>
             <li><a href="#part2">Hoạt động ngoại khóa</a></li>
