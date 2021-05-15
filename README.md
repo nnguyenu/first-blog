@@ -1,6 +1,6 @@
 # nnguyenu.github.io
 This is my first blog
 
-Note: the website will need a few seconds to execute the code so be patient
+Check it out at:https://nnguyenu.github.io/first-blog/
 
 
