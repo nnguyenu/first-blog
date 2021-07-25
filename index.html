@@ -15,7 +15,6 @@
       	    background-color: rgb(242, 245, 247);
       	    font-size:16px;
       	    margin:auto;
-      	  
         }
         p{
             color:rgb(191, 53, 53);
@@ -24,11 +23,11 @@
         li{
             color:rgb(168, 52, 168);
         }
-        #tetris{
+        .tetris{
             background-color:rgb(111, 163, 126);
             color:rgb(242, 235, 223);
         }
-        #skin-back-ground{
+        .skin-back-ground{
             background-color:rgb(235, 189, 158);
             width:200px;
             margin:auto;
@@ -54,6 +53,9 @@
             margin:auto;
             border:5px ridge blue;
             padding:10px;
+        }
+        .content{
+        	margin:100px;
         }
         /* Add a black background color to the top navigation */
         .topnav {
@@ -85,15 +87,13 @@
     </style>
     </head>
     <body> <!-- Everything we see on the website is contain in this part -->
-    
-    <p class="quote">Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.<br>
-    -Albert Einstein-</p>
 <div class="topnav">
     <a class="active" href="#home">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
 </div>
+	<div class="content">
     <h1 class="main-title">Nội dung chính của blog này:</h1>
         <ol>
             <li><a href="#part1">Giới thiệu bản thân</a></li>
@@ -104,15 +104,15 @@
         <img src="https://github.com/nnguyenu/first-blog/blob/main/blog%20photo/panda.jpg?raw=true" alt="Cute little panda" width="500" height="350"></a>
         <img src="https://github.com/nnguyenu/first-blog/blob/main/blog%20photo/bamboo.jpg?raw=true">
         
-        <h2 id="part1">1.Giới thiệu bản thân</h2>
+        <h2 class="part1">1.Giới thiệu bản thân</h2>
     	<p class="para">Tên: Vũ Hoàng Nguyên<br>
     	Ngày sinh: 23/09/2004<br>
     	Cung hoàng đạo: idc<br>
     	<!-- target="_blank" nhằm mở new tab khi ấn vào link-->
     	Trường:<a target="_blank" href="http://hsgs.edu.vn/">HSGS</a><br></p>
         <p class="para">Sở thích:????<br></p>
-        <p id="tetris"><strong>This is a very long <em>paragraph</em> that pretty useless.</strong> In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. The longer the player can delay this inevitable outcome, the higher their score will be.</p>
-        <h2 id="part2">2.Hoạt động ngoại khóa</h2>
+        <p class="tetris">This is a very long paragraph that pretty useless. In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. The longer the player can delay this inevitable outcome, the higher their score will be.</p>
+        <h2 class="part2">2.Hoạt động ngoại khóa</h2>
         <table class="table">
             <thead>
                 <tr>
@@ -139,9 +139,9 @@
                 </tr>
             </tbody>
         </table>
-        <div id="skin-back-ground"><h2 id="part3">3.Kiến thức bên lề</h2>
+        <div class="skin-back-ground"><h2 class="part3">3.Kiến thức bên lề</h2>
         <p>Blog này được taọ ra nhằm viết về các hoạt động ngoại khóa trong thời gian cấp 3 và <span class="test">1 số kiến thức</span> tin học liên quan tới cp mà mình thấy khá bổ ích để chia sẻ</p></div>
         <button>Click Me!</button>
-
+	</div>
  </body>
 </html>
