@@ -1,120 +1,37 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
     <meta charset="utf-8">
     <title>NguyenVu's blog</title>
-    <style>
-        h2{
-           
-            font-family:sans-serif;
-            font-size:2em; 
-        }
-        body{
-        	font-family: sans-serif;
-      	    background-color: rgb(255, 255, 255);
-      	    font-size:16px;
-      	    margin:auto;
-        }
-        p{
-            
-            text-align:left;
-        }
-        li{
-           
-        }
-        .tetris{
-            
-            
-        }
-        .skin-back-ground{
-            
-            
-        }
-        .para{
-            
-            width:70%;
-        }
-        .quote{
-            font-style:italic;
-            width:200px;
-            float:right;
-            margin-left:10px;
-        }
-        .main-title{
-            text-align:center;
-        }
-        .test{
-            color:blue;
-        }
-        .table{
-       
-            margin:auto;
-            border:5px ridge blue;
-            padding:10px;
-        }
-        .content{
-        	margin:100px;
-        }
-        .win-cond{
-        	border:3px solid orange;
-        	color:blue;
-        }
-        /* Add a black background color to the top navigation */
-        .topnav {
-          background-color: #333;
-          overflow: hidden;
-        }
-        p.win-cond{
-        	color:red;	
-        }
-        /* Style the links inside the navigation bar */
-        .topnav a {
-          float: left;
-          color: #f2f2f2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        /* Change the color of links on hover */
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-        
-        /* Add a color to the active/current link */
-        .topnav a.active {
-          background-color: #04AA6D;
-          color: white;
-        }
-    </style>
-    </head>
-    <body> <!-- Everything we see on the website is contain in this part -->
-        
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-</div>
-	<div class="content">
-    <h1 class="main-title">Nội dung chính của blog này:</h1>
+    <link rel="stylesheet" type = "text/css" href="style.css">
+</head>
+
+<body> <!-- Everything we see on the website is contain in this part -->
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="content">
+        <h1 id="main-title">Nội dung chính của blog này:</h1>
         <ol>
-            <li><a href="#part1">Giới thiệu bản thân</a></li>
-            <li><a href="#part2">Hoạt động ngoại khóa</a></li>
-            <li><a href="#part3">Kiến thức bên lề</a></li>
+            <li><a class = 'part' href="#part1">Giới thiệu bản thân</a></li>
+            <li><a class = 'part' href="#part2">Hoạt động ngoại khóa</a></li>
+            <li><a class = 'part' href="#part3">Kiến thức bên lề</a></li>
         </ol>
         <a href="https://www.youtube.com/watch?v=v_cpPMjE0vU">
-        <img src="https://github.com/nnguyenu/first-blog/blob/main/blog%20photo/panda.jpg?raw=true" alt="Cute little panda" width="500" height="350"></a>
-        <img src="https://github.com/nnguyenu/first-blog/blob/main/blog%20photo/bamboo.jpg?raw=true">
+        <img src="photos/panda.jpg" alt="Cute little panda" width="500" height="350"></a>
+        <img src="photos/bamboo.jpg" alt="Bamboo forest" width="500" height="350">
         
         <h2 class="part1">1.Giới thiệu bản thân</h2>
-    	<p class="para">Tên: Vũ Hoàng Nguyên<br>
-    	Ngày sinh: 23/09/2004<br>
-    	Cung hoàng đạo: idc<br>
-    	<!-- target="_blank" nhằm mở new tab khi ấn vào link-->
-    	Trường:<a target="_blank" href="http://hsgs.edu.vn/">HSGS</a><br></p>
+        <p class="para">Tên: Vũ Hoàng Nguyên<br>
+        Ngày sinh: 23/09/2004<br>
+        Cung hoàng đạo: idc<br>
+        <!-- target="_blank" nhằm mở new tab khi ấn vào link-->
+        Trường:<a target="_blank" href="http://hsgs.edu.vn/">HSGS</a><br></p>
         <p class="para">Sở thích:????<br></p>
         <p class="tetris">This is a very long paragraph that pretty useless. In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. </p>
         <p class="teris win-cond">The game ends when the playing field is filled. The longer the player can delay this <strong class="win-cond">inevitable outcome</strong>, the higher their score will be.</p>
@@ -148,6 +65,8 @@
         <div class="skin-back-ground"><h2 class="part3">3.Kiến thức bên lề</h2>
         <p>Blog này được taọ ra nhằm viết về các hoạt động ngoại khóa trong thời gian cấp 3 và <span class="test">1 số kiến thức</span> tin học liên quan tới cp mà mình thấy khá bổ ích để chia sẻ</p></div>
         <button>Click Me!</button>
-	</div>
- </body>
+    </div>
+    <script src = 'app.js'> </script> 
+</body>
+
 </html>
